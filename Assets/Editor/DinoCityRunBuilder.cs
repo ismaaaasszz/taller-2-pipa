@@ -579,11 +579,6 @@ public static class DinoCityRunBuilder
         generator.buildingPrefabs = buildings;
         generator.propPrefabs = props;
 
-        GameObject botObject = new GameObject("AutoTestBot");
-        AutoTestBot bot = botObject.AddComponent<AutoTestBot>();
-        bot.player = player.GetComponent<PlayerController>();
-        bot.shooter = player.GetComponent<PlayerShooter>();
-
         BuildUI(gameManager);
 
         EditorSceneManager.SaveScene(scene, ScenePath);
