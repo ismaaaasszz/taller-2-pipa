@@ -1,0 +1,199 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &657419590447104495
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5806565420978744872}
+  - component: {fileID: 1699633136672592049}
+  - component: {fileID: 6283845046239180646}
+  m_Layer: 0
+  m_Name: Vehiculo_StationWagon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5806565420978744872
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 657419590447104495}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1593318628534356859}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1699633136672592049
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 657419590447104495}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.6360148, y: 1.36, z: 3.6631129}
+  m_Center: {x: 0, y: 0.68, z: 0}
+--- !u!114 &6283845046239180646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 657419590447104495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7b0658f79277c14ea4eb78ca14caed1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destructionEffectPrefab: {fileID: 90043707978826180, guid: 010b0a98ef5828a46ba7b9163a15497c, type: 3}
+  vehicleType: StationWagon
+  modelRoot: {fileID: 1593318628534356859}
+  maxRandomYaw: 12
+--- !u!1 &1830197858436169476
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1593318628534356859}
+  m_Layer: 0
+  m_Name: Modelo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1593318628534356859
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1830197858436169476}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1360338657647343284}
+  m_Father: {fileID: 5806565420978744872}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1543148833929711967
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1593318628534356859}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 05f4459026668ad4aa2cfc53b486b98a, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 4.3388157
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 05f4459026668ad4aa2cfc53b486b98a, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 4.3388157
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 05f4459026668ad4aa2cfc53b486b98a, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 4.3388157
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 05f4459026668ad4aa2cfc53b486b98a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.000021398067
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 05f4459026668ad4aa2cfc53b486b98a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.2648539
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 05f4459026668ad4aa2cfc53b486b98a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.014311314
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 05f4459026668ad4aa2cfc53b486b98a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.00000004371139
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 05f4459026668ad4aa2cfc53b486b98a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -9.553427e-16
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 05f4459026668ad4aa2cfc53b486b98a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 05f4459026668ad4aa2cfc53b486b98a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 05f4459026668ad4aa2cfc53b486b98a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 05f4459026668ad4aa2cfc53b486b98a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 05f4459026668ad4aa2cfc53b486b98a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 05f4459026668ad4aa2cfc53b486b98a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 427e4151b9de8da41865794d8cfa19c0, type: 2}
+    - target: {fileID: -3929261060234756498, guid: 05f4459026668ad4aa2cfc53b486b98a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 427e4151b9de8da41865794d8cfa19c0, type: 2}
+    - target: {fileID: -3122720833724621391, guid: 05f4459026668ad4aa2cfc53b486b98a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 427e4151b9de8da41865794d8cfa19c0, type: 2}
+    - target: {fileID: 113614756970799516, guid: 05f4459026668ad4aa2cfc53b486b98a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 427e4151b9de8da41865794d8cfa19c0, type: 2}
+    - target: {fileID: 919132149155446097, guid: 05f4459026668ad4aa2cfc53b486b98a, type: 3}
+      propertyPath: m_Name
+      value: car_stationwagon
+      objectReference: {fileID: 0}
+    - target: {fileID: 2935241160372809158, guid: 05f4459026668ad4aa2cfc53b486b98a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 427e4151b9de8da41865794d8cfa19c0, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 05f4459026668ad4aa2cfc53b486b98a, type: 3}
+--- !u!4 &1360338657647343284 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 05f4459026668ad4aa2cfc53b486b98a, type: 3}
+  m_PrefabInstance: {fileID: 1543148833929711967}
+  m_PrefabAsset: {fileID: 0}
