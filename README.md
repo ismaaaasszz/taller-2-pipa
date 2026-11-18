@@ -1,4 +1,4 @@
-# Dino City Run 🦖🏙️
+# Dino City Run 
 
 **Taller N°2 – Proyecto Integrador de Programación Avanzada (II-2026)**
 Universidad Católica del Norte – Departamento de Ingeniería de Sistemas y Computación
@@ -71,5 +71,3 @@ Si se necesita regenerar la escena, prefabs, materiales y audio, usar el menú
 - Modelos entregados por la asignatura (personajes, armas, dinosaurios y animaciones).
 - **KayKit – City Builder Bits** por Kay Lousberg (CC0) – edificios, autos y objetos de ciudad.
 - **LowPoly Apocalyptic Buildings** por Majadroid (CC0) – texturas de concreto y rocas.
-- **Audio:** música y efectos de sonido originales, generados por código propio
-  (`Assets/Editor/AudioSynthesizer.cs`).
